@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Udemy D3 Sandbox</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <section>
+      <p></p>
+      <p></p>
+      <p></p>
+      <ul id="quotes"></ul>
+    </section>
+    <hr />
+    <section>
+      <svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+        <rect
+          x="10"
+          y="20"
+          width="500"
+          height="300"
+          fill="#ffc107"
+          stroke="#2196f3"
+          stroke-width="8px"
+        ></rect>
+        <rect
+          rx="25"
+          ry="25"
+          x="100"
+          y="120"
+          width="500"
+          height="300"
+          fill="blue"
+          stroke="orange"
+          stroke-width="8px"
+        ></rect>
+        <polygon
+          points="200,200 400,200 400,500 200,500"
+          fill="red"
+          stroke="orange"
+          stroke-width="8px"
+        ></polygon>
+        <circle cx="500" cy="200" r="50" fill="green"></circle>
+        <path
+          d="M400 100 L500 300 L300 300 L400 100"
+          stroke="purple"
+          stroke-width="5px"
+        ></path>
+      </svg>
+    </section>
+    <hr />
+    <section>
+      <svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,0 800,0 800,450 0,450" fill="#3f9292"></polygon>
+        <polygon points="0,150 800,150 800,300 0,300" fill="#ffc107"></polygon>
+        <path d="M0 0 L350 225 L0 450 Z" stroke="black"></path>
+      </svg>
+      <svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+        <g fill="blue">
+          <path d="M0 0 L350 225 L0 450 Z"></path>
+        </g>
+      </svg>
+    </section>
+    <hr />
+    <section>
+      <svg id="chart-area"></svg>
+      <input id="range" type="range" step="1" />
+    </section>
+    <script src="./app.bundle.js"></script>
+  </body>
+</html>
